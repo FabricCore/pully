@@ -13,6 +13,14 @@ Command.register({
                 },
             },
         },
+        uninstall: {
+            args: {
+                packages: {
+                    type: StringArgumentType.greedyString(),
+                    execute: "uninstall.js",
+                },
+            },
+        },
         update: {
             name: "update",
             execute: "updateAll.js",
