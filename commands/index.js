@@ -25,5 +25,9 @@ Command.register({
             name: "update",
             execute: "updateAll.js",
         },
+        clean: {
+            name: "update",
+            execute: "clean.js",
+        },
     },
 });
