@@ -4,7 +4,13 @@ Package magnager for JSCore.
 
 ### Installation
 
-TODO
+#### Using pully
+
+> If pully is not previously installed, please use the install script.
+
+```
+/pully install pully
+```
 
 ## Commands
 
