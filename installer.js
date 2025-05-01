@@ -18,7 +18,9 @@
             modcore.fs.delete("storage/pullyInstaller");
             console.log("\u00A7aPully installed, reloading script...");
             require("modules/register.js");
-            console.log("\u00A7aScript reloaded");
+            console.log(
+                "\u00A7aReload completed, rejoin world to refresh commands",
+            );
             console.log();
         },
         "storage/pullyInstaller",
