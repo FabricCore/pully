@@ -4,9 +4,17 @@ Package magnager for JSCore.
 
 ### Installation
 
+#### Using install script
+
+> This only works if pully is previously **_not_** installed.
+
+```
+/js web https://raw.githubusercontent.com/FabricCore/pully/refs/heads/master/installer.js
+```
+
 #### Using pully
 
-> If pully is not previously installed, please use the install script.
+> If pully is not previously installed, use the install script.
 
 ```
 /pully install pully
@@ -51,7 +59,8 @@ Returns a list of all packages with their dependencies.
 Returns a list of all packages, with their dependencies and dependents.
 
 #### pully.repo(then: F)
-***where F: (repo: JSON)***
+
+**_where F: (repo: JSON)_**
 
 Fetches package index from repository.
 
@@ -60,25 +69,29 @@ Fetches package index from repository.
 Fetches package index from repository, blocking variant.
 
 #### pully.remove(packs: [String], then: F, print: boolean?)
-***where F: (success: boolean)
+
+\*\*\*where F: (success: boolean)
 Remove a list of packages.
 
 - Will result in a failure if removing a package result in a missing dependency.
 - **print** defaults to true.
 
 #### pully.clean(then: F)
-***where F: ()**
+
+**\*where F: ()**
 
 Removes unused dependencies.
 
 #### pully.pull(packs: [String], then: F)
-***where F: (changed: boolean)***
+
+**_where F: (changed: boolean)_**
 
 Install a list of packages with their dependencies.
 
 - **changed** is true if at least 1 package is installed.
 
 #### pully.updateAll(then: F)
-***where F: ()***
+
+**_where F: ()_**
 
 Update all packages.
