@@ -20,6 +20,30 @@ Package magnager for JSCore.
 /pully install pully
 ```
 
+#### Require as Dependency
+
+```json
+{
+  "dependencies": {
+    "pully": "0.1.0"
+  }
+}
+```
+
+#### Manual Install
+
+1. [Download **pully**](https://github.com/FabricCore/pully/archive/refs/heads/master.zip).
+2. Unzip file content to _.minecraft/config/jscore/modules/pully/_
+
+The folder should look like this
+
+```
+.minecraft/config/jscore/
+└── modules/
+    └── pully/
+        └── package.json
+```
+
 ## Commands
 
 #### /pully install &lt;package 1&gt; &lt;package 2&gt; &lt;package 3&gt;
