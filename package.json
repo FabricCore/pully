@@ -1,7 +1,7 @@
 {
     "name": "pully",
     "version": "0.1.0",
-    "authors": [ "Sirius" ],
+    "authors": [ "Sirius<siriusmart>" ],
     "description": "Pully package manager.",
     "license": "AGPL-3.0-or-later",
     "keywords": [ "package manager" ],
